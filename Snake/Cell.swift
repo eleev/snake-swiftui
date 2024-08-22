@@ -16,7 +16,6 @@ extension Cell {
     }
 }
 
-
 extension Cell: Equatable {
     static func == (lhs: Cell, rhs: Cell) -> Bool {
         lhs.row == rhs.row && lhs.column == rhs.column
