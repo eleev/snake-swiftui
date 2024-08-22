@@ -24,14 +24,4 @@ extension View {
             isEnabled: isEnabled
         )
     }
-    
-    func glow(time: TimeInterval, isEnabled: Bool = true) -> some View {
-        colorEffect(
-            EffectsLibrary.glow(
-                .boundingRect,
-                .float(time)
-            ),
-            isEnabled: isEnabled
-        )
-    }
 }
