@@ -2,7 +2,7 @@
 //  SnakeApp.swift
 //  Snake
 //
-//  Created by Astemir Eleev on 22/8/24.
+//  Created by Astemir Eleev on 21/8/24.
 //
 
 import SwiftUI

@@ -11,6 +11,15 @@
 		A9F093EB2C76FB7A001C1058 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F093EA2C76FB7A001C1058 /* ContentView.swift */; };
 		A9F093ED2C76FB7C001C1058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F093EC2C76FB7C001C1058 /* Assets.xcassets */; };
 		A9F093F02C76FB7C001C1058 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F093EF2C76FB7C001C1058 /* Preview Assets.xcassets */; };
+		A9F093F72C77217A001C1058 /* Matrix.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9F093F62C77217A001C1058 /* Matrix.metal */; };
+		A9F093FB2C7721CA001C1058 /* View+Shader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F093FA2C7721CA001C1058 /* View+Shader.swift */; };
+		A9F094012C7755B6001C1058 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F094002C7755B6001C1058 /* Game.swift */; };
+		A9F094032C7755C8001C1058 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F094022C7755C8001C1058 /* Direction.swift */; };
+		A9F094052C7755D3001C1058 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F094042C7755D3001C1058 /* Cell.swift */; };
+		A9F094072C775838001C1058 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F094062C775838001C1058 /* Components.swift */; };
+		A9F094092C779AAB001C1058 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F094082C779AAB001C1058 /* Score.swift */; };
+		A9F0940B2C779AB8001C1058 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0940A2C779AB8001C1058 /* Food.swift */; };
+		A9F0940D2C779AC6001C1058 /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F0940C2C779AC6001C1058 /* Snake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		A9F093EA2C76FB7A001C1058 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9F093EC2C76FB7C001C1058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9F093EF2C76FB7C001C1058 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9F093F62C77217A001C1058 /* Matrix.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Matrix.metal; sourceTree = "<group>"; };
+		A9F093FA2C7721CA001C1058 /* View+Shader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Shader.swift"; sourceTree = "<group>"; };
+		A9F094002C7755B6001C1058 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A9F094022C7755C8001C1058 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		A9F094042C7755D3001C1058 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A9F094062C775838001C1058 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		A9F094082C779AAB001C1058 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		A9F0940A2C779AB8001C1058 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A9F0940C2C779AC6001C1058 /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,15 @@
 			children = (
 				A9F093E82C76FB7A001C1058 /* SnakeApp.swift */,
 				A9F093EA2C76FB7A001C1058 /* ContentView.swift */,
+				A9F094062C775838001C1058 /* Components.swift */,
+				A9F094002C7755B6001C1058 /* Game.swift */,
+				A9F094022C7755C8001C1058 /* Direction.swift */,
+				A9F094082C779AAB001C1058 /* Score.swift */,
+				A9F0940A2C779AB8001C1058 /* Food.swift */,
+				A9F0940C2C779AC6001C1058 /* Snake.swift */,
+				A9F094042C7755D3001C1058 /* Cell.swift */,
+				A9F093FA2C7721CA001C1058 /* View+Shader.swift */,
+				A9F093F62C77217A001C1058 /* Matrix.metal */,
 				A9F093EC2C76FB7C001C1058 /* Assets.xcassets */,
 				A9F093EE2C76FB7C001C1058 /* Preview Content */,
 			);
@@ -138,7 +165,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9F093EB2C76FB7A001C1058 /* ContentView.swift in Sources */,
+				A9F094072C775838001C1058 /* Components.swift in Sources */,
+				A9F094012C7755B6001C1058 /* Game.swift in Sources */,
+				A9F094052C7755D3001C1058 /* Cell.swift in Sources */,
+				A9F093F72C77217A001C1058 /* Matrix.metal in Sources */,
+				A9F093FB2C7721CA001C1058 /* View+Shader.swift in Sources */,
 				A9F093E92C76FB7A001C1058 /* SnakeApp.swift in Sources */,
+				A9F0940B2C779AB8001C1058 /* Food.swift in Sources */,
+				A9F094092C779AAB001C1058 /* Score.swift in Sources */,
+				A9F0940D2C779AC6001C1058 /* Snake.swift in Sources */,
+				A9F094032C7755C8001C1058 /* Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
