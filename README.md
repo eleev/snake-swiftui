@@ -11,12 +11,26 @@
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
 # ✍️ About
-🐍 Snake on vanilla SwiftUI 
+🐍 Snake on vanilla `SwiftUI`. A quick attempt to implement a working game. The game usese post-processing via a color adjustment filter (`Metal`).
 
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
 
 ![](Assets/demo.gif)
+
+# 📋 Features
+- Vanilla SwiftUI / No Canvas
+- Metal `vault boy` / `fallout shader` 
+    - neon edge rendering 
+    - glowing via smoothstep 
+    - color mixing 
+    - luminance distance
+- Self-collision
+- Wall collision
+- Drag gesture based controls
+- Adjustable game board
+
+Estimated implementation time: `1h 10m`
 
 # 👨‍💻 Author 
 [Astemir Eleev](https://github.com/eleev)
