@@ -13,12 +13,12 @@ struct Food {
         Food(placemark: nil)
     }
     
-    consuming func spawn(inside walls: (rows: Int, columns: Int), while predicate: (Cell) -> Bool) -> Food {
+    consuming func spawn(inside boundary: (rows: Int, columns: Int), while predicate: (Cell) -> Bool) -> Food {
         var position: Cell
         repeat {
             position = Cell(
-                Int.random(in: 0..<walls.rows),
-                Int.random(in: 0..<walls.columns)
+                Int.random(in: 0..<boundary.rows),
+                Int.random(in: 0..<boundary.columns)
             )
         } while predicate(position)
         return Food(placemark: position)
