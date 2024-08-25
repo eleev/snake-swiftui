@@ -16,7 +16,7 @@
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
 
-![](Assets/demo.gif)
+![](/demo.gif)
 
 # 📋 Features
 - Vanilla SwiftUI / No Canvas
